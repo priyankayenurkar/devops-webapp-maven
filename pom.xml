@@ -7,7 +7,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>my-app Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -17,9 +17,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <sonar.projectKey>projectKeymy-app</sonar.projectKey>
-    <sonar.host.url>http://34.125.139.245:9000</sonar.host.url>
-    <sonar.login>a38196038bb1d99569948b0ec75db3469ae8200f</sonar.login>
+    <sonar.projectKey>new-project</sonar.projectKey>
+    <sonar.host.url>http://34.125.220.95:9000</sonar.host.url>
+    <sonar.login>sqp_5e97670f2e534ae0060693aedd26cb1f1cd97150</sonar.login>
     
   </properties>
 
