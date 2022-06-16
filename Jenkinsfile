@@ -15,7 +15,7 @@ pipeline{
         }
         stage("SonarAnalysis"){
              steps{
-                 sh "mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=mini-project"
+                 sh "mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=new-project"
              }
 
         }
