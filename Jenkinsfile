@@ -20,12 +20,7 @@ pipeline{
             }
         }
         
-        stage("Approval"){
-            steps{
-                   timeout(time: 15, unit: 'MINUTES'){ 
-	               input message: 'Do you approve deployment for production?' , ok: 'Yes'}
-            }
-        }
+        
       
     }
     post{
